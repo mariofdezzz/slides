@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    {
+      "source": "/04-2026/gofigeeks/(.*)",
+      "destination": "/25-04-2026/index.html"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}

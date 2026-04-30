@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "dev": "node scripts/picker.js dev",
+    "build": "pnpm -r build && node scripts/collect-builds.js",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@iconify-json/clarity": "catalog:",
+    "@iconify-json/mingcute": "catalog:",
+    "@slidev/cli": "catalog:",
+    "@slidev/theme-apple-basic": "catalog:",
+    "@slidev/theme-default": "catalog:",
+    "@slidev/theme-seriph": "catalog:",
+    "execa": "catalog:",
+    "prompts": "catalog:",
+    "vue": "catalog:"
+  }
+}
