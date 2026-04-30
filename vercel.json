@@ -1,11 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/04-2026/gofigeeks/:path*\\.:ext",
-      "destination": "/25-04-2026/:path*.:ext"
-    },
-    {
-      "source": "/04-2026/gofigeeks/(.*)",
+      "source": "/25-04-2026/(.*)",
       "destination": "/25-04-2026/index.html"
     }
   ],
