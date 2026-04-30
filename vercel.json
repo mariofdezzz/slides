@@ -2,6 +2,10 @@
   "rewrites": [
     {
       "source": "/04-2026/gofigeeks/:path*",
+      "destination": "/25-04-2026/:path*"
+    },
+    {
+      "source": "/04-2026/gofigeeks/(.*)",
       "destination": "/25-04-2026/index.html"
     }
   ],
