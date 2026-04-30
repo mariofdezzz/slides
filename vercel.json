@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/04-2026/gofigeeks/:path*",
-      "destination": "/25-04-2026/:path*"
+      "source": "/04-2026/gofigeeks/:path*\\.:ext(js|css|jpg|jpeg|png|gif|svg|woff|woff2|ttf|eot|map)",
+      "destination": "/25-04-2026/:path*.:ext"
     },
     {
       "source": "/04-2026/gofigeeks/(.*)",
