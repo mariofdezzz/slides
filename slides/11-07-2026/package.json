@@ -1,0 +1,10 @@
+{
+  "name": "graphql",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /25-04-2026/",
+    "dev": "slidev",
+    "export": "slidev export"
+  }
+}
