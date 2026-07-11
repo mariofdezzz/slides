@@ -4,7 +4,7 @@
   "packageManager": "pnpm@10.32.1",
   "scripts": {
     "dev": "node scripts/picker.js dev",
-    "build": "pnpm -r build && node scripts/collect-builds.js",
+    "build": "pnpm -r build && node scripts/collect-builds.js && node scripts/generate-index.js",
     "export": "slidev export"
   },
   "dependencies": {

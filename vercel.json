@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
       "source": "/25-04-2026/(.*)",
       "destination": "/25-04-2026/index.html"
     },
